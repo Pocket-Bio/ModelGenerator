@@ -29,7 +29,7 @@ dependencies = [
     "datasets>=2.14.6",  # fsspec issue fixed in 2.14.6
     "numpy>2",
     "packaging",
-    "bitsandbytes",
+    "bitsandbytes; sys_platform == 'linux'",
     "scipy",
     "scikit-learn",
     "wandb",
