@@ -27,7 +27,7 @@ dependencies = [
     "torchvision",
     "transformers==4.38.0",
     "datasets>=2.14.6",  # fsspec issue fixed in 2.14.6
-    "numpy<2",
+    "numpy>2",
     "packaging",
     "bitsandbytes",
     "scipy",
